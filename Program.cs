@@ -12,3 +12,8 @@ if (numberTree.Length > 2) {
 } else {
     Console.WriteLine("третьей цифры нет");
 }
+//Задача №15
+Console.WriteLine("цифру, обозначающую день недели");
+int dayNumber = Convert.ToInt32(Console.ReadLine());
+if (dayNumber == 6 || dayNumber == 7) {Console.WriteLine("Да");}
+else {Console.WriteLine("Нет");}
